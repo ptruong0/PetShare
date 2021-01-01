@@ -1,0 +1,16 @@
+POST http://localhost:5000/posts
+Content-Type: application/json
+
+{
+    "petName": "Clifford",
+    "animalType": "dog",
+    "submittedBy": "User2"
+}
+
+###
+
+GET http://localhost:5000/posts
+
+###
+
+DELETE http://localhost:5000/posts/5feec0096b268c0f40d1c80c
