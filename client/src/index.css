@@ -1,0 +1,85 @@
+.header {
+    width: 60%;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 5px solid indigo;
+}
+
+.header div {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header h1 {
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    color: indigo;
+}
+
+.form-zone {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-zone .create-button {
+    position: absolute;
+    text-align: center;
+    padding: 5px 15px;
+    background-color: #ED1610;
+    color: whitesmoke;
+}
+
+.behind-form {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.form-box {
+    position: absolute;
+    border: 3px solid black;
+    background-color: white;
+    top: 10%;
+    width: 40%;
+    left: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.close-btn {
+    border: none;
+    float: right;
+    font-size: 25px;
+    background-color: white;
+}
+
+.animal-options input[type="radio"] {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.submit-btn {
+    padding: 2px 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+form .labels {
+    display: block;
+}
+
+.input-label {
+    width: 200px;
+    float: left;
+    padding-right: 10px;
+}
