@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Header from './components/Header';
-import CreationButton from './components/CreationButton';
-import PostGrid from './components/PostGrid';
+import Header from './components/Header.jsx';
+import CreationButton from './components/CreationButton.jsx';
+import PostGrid from './components/PostGrid.jsx';
 
 class App extends React.Component {
     render() {

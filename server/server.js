@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGODB_URL, { useNewUrlParser: true, useUnifiedTop
 
 
 // Middleware
-app.use(express.json());
+app.use(express.json({ limit: '50mb', type: 'application/json' }));
 app.use(cors());
 
 // Routes

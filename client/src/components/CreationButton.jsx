@@ -1,7 +1,6 @@
 import React from 'react';
 
-import PopUpForm from './PopUpForm';
-import * as api from '../api/api_calls';
+import PopUpForm from './PopUpForm.jsx';
 
 class CreationButton extends React.Component {
     constructor() {
